@@ -1959,3 +1959,45 @@ article#intro.intro-article {
     padding: 40px; /* Adjust the padding value as needed */
 }
 
+.certification-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.certification-list li {
+    margin-bottom: 30px; /* Space between each certification */
+    padding: 20px;
+    background-color: #1b1f22;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certification-list h3 {
+    margin: 0 0 10px 0; /* Space between title and issuer */
+    font-size: 1.5em;
+    color: #db687f;
+}
+
+.certification-list p {
+    margin: 0 0 10px 0; /* Space between issuer and the "View Certificate" button */
+    font-style: italic;
+    color: #fff;
+}
+
+.certification-list a.cert-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #db687f;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.certification-list a.cert-btn:hover {
+    background-color: #c75a5a; /* Darker shade on hover */
+}
